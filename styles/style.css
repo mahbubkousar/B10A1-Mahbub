@@ -1,5 +1,6 @@
 * {
   margin: 0px;
+  scroll-behavior: smooth;
 }
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
@@ -278,7 +279,6 @@ main section {
 
 /* end of my current target section  */
 
-
 /* my next target section  */
 
 .next-target {
@@ -319,5 +319,73 @@ main section {
   line-height: 19px;
 }
 
-
 /* end of my next target section  */
+
+/* contact section  */
+
+#contact {
+  margin: 10px auto;
+  border-radius: 16px;
+  max-width: 950px;
+  height: 200px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.contact-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact-container h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-top: 5px;
+}
+
+.contact-container p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+}
+
+#input-text {
+  width: 350px;
+  height: 40px;
+  padding: 19px 20px 19px 20px;
+  box-sizing: border-box;
+  color:black;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.submit-button {
+width: 80px;
+height: 40px;
+color:black;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+/* end of contact section  */
