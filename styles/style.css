@@ -175,3 +175,41 @@ main section {
   font-weight: 400;
   padding: 10px;
 }
+/* end of why web dev section  */
+
+
+/* my inspiration section  */
+
+.inspiration {
+  border-radius: 16px;
+  text-align: center;
+}
+.inspiration-h1 {
+  font-size: 32px;
+  font-weight: 800;
+  color: rgb(13, 19, 33);
+  margin-bottom: 24px;
+}
+
+.inspiration-p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.iframe {
+  width: 800px;
+  height: 400px;
+  border: 2px solid rgb(194, 194, 194);
+  border-radius: 10px;
+  padding: 20px;
+  overflow: hidden;
+  margin: auto;
+}
+.inspiration iframe {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+
+/* end of my inspiration section  */
