@@ -329,7 +329,7 @@ main section {
   max-width: 950px;
   height: 200px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/assets/handshake.jpg");
+    url("https://mahbubkousar.github.io/B10A1-Mahbub/assets/handshake.jpg");
   background-repeat: no-repeat;
   background-position: center left;
   background-size: cover;
