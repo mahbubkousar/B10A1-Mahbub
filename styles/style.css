@@ -44,6 +44,7 @@ nav .nav-btn:hover {
   background-image: url("../assets/Hero-bg.png");
   background-repeat: no-repeat;
   background-position: top left;
+  background-size: cover;
 }
 .banner-content {
   text-align: center;
@@ -175,8 +176,12 @@ main section {
   font-weight: 400;
   padding: 10px;
 }
-/* end of why web dev section  */
 
+.why-card-image {
+  width: 250px;
+  height: auto;
+}
+/* end of why web dev section  */
 
 /* my inspiration section  */
 
@@ -210,6 +215,62 @@ main section {
   height: 100%;
   width: 100%;
 }
-
-
 /* end of my inspiration section  */
+
+/* my current target section  */
+.current-target {
+  text-align: center;
+}
+
+.current-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  text-align: left;
+}
+
+.target-item1 {
+  padding: 30px;
+  width: 250px;
+  border-radius: 15px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.target-item2 {
+  padding: 30px;
+  width: 250px;
+  border-radius: 15px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.target-item3 {
+  padding: 30px;
+  width: 250px;
+  border-radius: 15px;
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.target-img {
+  height: 56px;
+  weight: 56px;
+  margin-bottom: 10px;
+}
+
+.target-h3 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.target-p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.target-a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
