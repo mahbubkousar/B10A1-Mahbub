@@ -169,6 +169,9 @@ main section {
   font-weight: 400;
   padding: 10px;
 }
+.why-card-left button:hover{
+  opacity: 60%;
+}
 
 .why-card-right button {
   border: 1px solid rgb(13, 19, 33);
@@ -177,6 +180,11 @@ main section {
   font-weight: 400;
   padding: 10px;
 }
+
+.why-card-right button:hover{
+  opacity: 60%;
+}
+
 
 .why-card-image {
   width: 250px;
